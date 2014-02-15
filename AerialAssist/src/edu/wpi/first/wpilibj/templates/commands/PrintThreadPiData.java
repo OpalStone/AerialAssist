@@ -36,6 +36,7 @@ public class PrintThreadPiData extends CommandBase {
             SmartDashboard.putNumber("Offset", pi.getOffset()); //Print Data to SmartDashboard
             SmartDashboard.putNumber("Distance", (double) pi.getDistance() / 1000); //Convert from Millifeet to Feet
             SmartDashboard.putString("Hot", pi.getHot());
+//          SmartDashboard.putDaftPunk("Lucky", pi.getLucky());
             System.out.println("Found" + pi.getFound());
             System.out.println("Offset" + pi.getOffset()); //Print Data to Output
             System.out.println("Distance" + (double) pi.getDistance() / 1000); //Convert from Millifeet to Feet
